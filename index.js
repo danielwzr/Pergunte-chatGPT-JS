@@ -1,4 +1,4 @@
-const apiKey = "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";
+const apiKey = "";
 const inputPergunta = document.getElementById("pergunta");
 const imgLoading = document.getElementById("imgLoading");
 const pResposta = document.getElementById("resposta");
