@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="display: flex; flex-direction: column; align-items: flex-start; gap: 12px;">
+    <textarea type="text" cols="40" rows="3" placeholder="Digite sua pergunta" id="pergunta" style="padding: 12px"></textarea>
+    <button onclick="enviarPergunta()">ENVIAR</button>
+
+    <img src="loading.gif" alt="Loading signal" style="max-width: 200px; display: none;" id="imgLoading">
+
+    <p id="resposta"></p>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
